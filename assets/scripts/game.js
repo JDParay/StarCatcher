@@ -12,7 +12,12 @@ let config = {
     },
     scene: [
         LoadingScene,
-        GameScene
+        MenuScene,
+        Level1,
+        Level2,
+        Level3,
+        GameOverScene,
+        WinScene,
     ]
 };
 
